@@ -1,0 +1,27 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/phateme/Desktop/University/Advanced Programming/project 7/phase3'
+mkdir -p build
+g++ -std=c++11 -Wall -pedantic -c utaxi/main.cpp -o build/main.o
+g++ -std=c++11 -Wall -pedantic -c utaxi/Handlers.cpp -o build/Handlers.o
+g++ -std=c++11 -Wall -pedantic -c utaxi/Database.cpp -o build/Database.o
+g++ -std=c++11 -Wall -pedantic -c utaxi/DeleteRequest.cpp -o build/DeleteRequest.o
+g++ -std=c++11 -Wall -pedantic -c utaxi/Driver.cpp -o build/Driver.o
+g++ -std=c++11 -Wall -pedantic -c utaxi/Error.cpp -o build/Error.o
+g++ -std=c++11 -Wall -pedantic -c utaxi/GetRequest.cpp -o build/GetRequest.o
+g++ -std=c++11 -Wall -pedantic -c utaxi/IOHandler.cpp -o build/IOHandler.o
+g++ -std=c++11 -Wall -pedantic -c utaxi/Location.cpp -o build/Location.o
+g++ -std=c++11 -Wall -pedantic -c utaxi/Passenger.cpp -o build/Passenger.o
+g++ -std=c++11 -Wall -pedantic -c utaxi/PostRequest.cpp -o build/PostRequest.o
+g++ -std=c++11 -Wall -pedantic -c utaxi/CLRequest.cpp -o build/CLRequest.o
+g++ -std=c++11 -Wall -pedantic -c utaxi/Trip.cpp -o build/Trip.o
+g++ -std=c++11 -Wall -pedantic -c utaxi/User.cpp -o build/User.o
+g++ -std=c++11 -Wall -pedantic -c utaxi/UTaxi.cpp -o build/UTaxi.o
+g++ -std=c++11 -Wall -pedantic -c utils/response.cpp -o build/response.o
+g++ -std=c++11 -Wall -pedantic -c utils/request.cpp -o build/request.o
+g++ -std=c++11 -Wall -pedantic -c utils/utilities.cpp -o build/utilities.o
+g++ -std=c++11 -Wall -pedantic -c server/server.cpp -o build/server.o
+g++ -std=c++11 -Wall -pedantic -c server/route.cpp -o build/route.o
+g++ -std=c++11 -Wall -pedantic -c utils/template_parser.cpp -o build/template_parser.o
+g++ -std=c++11 -Wall -pedantic build/main.o build/Database.o build/Handlers.o build/DeleteRequest.o build/Driver.o build/Error.o build/GetRequest.o build/IOHandler.o build/Location.o build/Passenger.o build/PostRequest.o build/CLRequest.o build/Trip.o build/User.o build/UTaxi.o build/response.o build/request.o build/utilities.o build/server.o build/route.o build/template_parser.o  -o utaxi.out
+make: Leaving directory `/Users/phateme/Desktop/University/Advanced Programming/project 7/phase3'
+ 

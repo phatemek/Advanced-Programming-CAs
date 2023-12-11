@@ -1,0 +1,28 @@
+body {
+    font-family: "Lucida Console";
+    background-color: rgb(253,184,19);
+}
+
+h1 {
+    text-align: center;
+    font-family: "Courier New";
+    font-size:500%;
+    color: #0036B0;
+}
+
+div {
+    font-size: 150%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    border: 5px solid #0036B0;
+    background-color: lightgray;
+    padding: 1%;
+    padding-bottom: 3%;
+    width: 30%;
+    height: 30%;
+}
+
+label {
+    font-size: 17px;
+}

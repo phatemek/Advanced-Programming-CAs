@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trip Request</title>
+    <link rel="stylesheet" href="tripRequest.css">
+</head>
+<body>
+    <h1>Request a ride anywhere, anytime!</h1>
+<div>
+    <h2 style="font-size:200%">Trip Request</h2>
+    <form method="post">
+        <input type="text" name="username" placeholder="Username" size="40">
+        <br><br>
+        <input type="text" name="origin" placeholder="Origin" size="40">
+        <br><br>
+        <input type="text" name="destination" placeholder="Destination" size="40">
+        <br><br>
+        <input type="checkbox" id="situation" name="in_hurry" value="in_hurry">
+        <label for="situation"> In Hurry!</label>
+        <br><br>
+        <input type="submit" value="Submit" formaction="makeTrip">
+        <br><br>
+        <input type="submit" value="Get Cost" formaction="getCost">
+    </form>
+</div>
+
+</body>
+</html>
